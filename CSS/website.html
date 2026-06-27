@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+    margin: 0;
+}
+
+
+.header {
+    text-align: center;
+    padding: 30px;
+    background: rgb(47, 143, 184);
+}
+
+/* Layout */
+.row {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Left column */
+.leftcolumn {
+    flex: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+    flex: 30%;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Images */
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Sidebar images */
+.small-img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Popular post list */
+.post-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    padding: 8px 12px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: gray;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>MY TRAVELS</h1>
+    <p>Explore the world</p>
+</div>
+
+<div class="row">
+
+    <!-- LEFT SIDE -->
+    <div class="leftcolumn">
+
+        <div class="card">
+            <img src="travel.jpeg">
+            <h2>TRAVEL DIARY</h2>
+            <h5>Journey through Nature, June 17, 2026</h5>
+            <p>
+                Wandering through new places fills the heart with unforgettable memories...
+            </p>
+            <button>Read More >></button>
+        </div>
+
+        <div class="card">
+            <img src="italy.jpeg">
+            <h2>Italy</h2>
+            <h5>Jan 2, 2026</h5>
+            <p>
+                Italy is a beautiful country known for its history, food, and culture...
+            </p>
+            <button>Comments</button>
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="rightcolumn">
+
+        <div class="card">
+            <img src="Explore.jpeg">
+            <h3>My Name</h3>
+            <p>
+                Exploring the beauty of the world and sharing my travel experiences...
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Popular Posts</h3>
+
+            <div class="post-item">
+                <img src="effile.jpeg" class="small-img">
+                <div>
+                    <b>Lorem</b><br>
+                    Sed mattis nunc
+                </div>
+            </div>
+
+            <div class="post-item">
+                <img src="nature.jpeg" class="small-img">
+                <div>
+                    <b>Mountains</b><br>
+                    Munnar
+                </div>
+            </div>
+
+            <div class="post-item">
+                <img src="eypgt.jpeg" class="small-img">
+                <div>
+                    <b>Mummy</b><br>
+                    Egypt
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

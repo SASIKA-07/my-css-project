@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           body{
+            font-family: 'Times 
+            New Roman', Times, serif;
+        }
+        .header{
+            background-color: rgb(203, 198, 196);
+            padding: 10px;
+        }
+
+        .card-container{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;      
+            overflow-y:visible;      
+            padding: 20px;
+        }
+           
+        
+
+        button{
+            box-shadow: 0 4px 8px 0 rgba(22, 9, 32, 0.849);
+            padding: 8px 12px;
+            color: black;
+            border: none;
+        }
+
+        .card{
+            box-shadow: 0 4px 8px 0 rgba(22, 9, 32, 0.849);
+            width: 500px;
+            border-radius: 5px;
+            overflow: hidden;
+            left: 0%;
+            justify-content:left;
+            top: 340px;
+        }
+
+        .card:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 119, 255, 0.6);
+        }
+
+        .container{
+            padding: 10px;
+            text-align: center;
+            float: left;
+            justify-content: flex-end;
+        }
+        .blog{
+            box-shadow: 0 4px 8px 0 rgba(22, 9, 32, 0.849);
+            flex-direction: row-reverse;
+            width: 900px;
+            
+        }
+        .set{
+            padding: 10px;
+            text-align: center;
+            gap: 40px;
+            justify-content: flex-end;
+        }
+        .enter{
+            padding: 10px;
+            text-align: center;
+            gap: 40px;
+            align-items: flex-start;
+        }
+        .witch{
+            box-shadow: 0 4px 8px 0 rgba(22, 9, 32, 0.849);
+            width: 900px;
+            border-radius: 5px;
+            left: 100%;
+            justify-content: flex-start;
+        }
+        .post{
+            box-shadow: 0 4px 8px 0 rgba(22, 9, 32, 0.849);
+            width: 500px;
+            border-radius: 5px;
+            overflow: hidden;
+            justify-content: space-around;
+        }
+        .car{
+            box-shadow: 0 4px 8px 0 rgba(22, 9, 32, 0.849);
+            width: 500px;
+            border-radius: 5px;
+            list-style: none;
+        }
+
+        .contain{
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+
+        }
+        .post-item {
+         display: flex;
+         align-items: center;
+         }
+        .post-item:hover{
+            opacity: 0.5;
+            background-color: aliceblue;
+        }
+        .tags{
+         box-shadow: 0 4px 8px 0 rgba(22, 9, 32, 0.849);
+         padding-left: 0px;
+         justify-content: end;
+         align-items: center;
+        }
+        .tab{
+         padding: 5px;
+        }
+        img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            
+        }
+        h1{
+            padding: 20px;
+            background-color: grey;
+            opacity: 0.5;
+        }
+        button:hover {
+        background-color: black;
+        color: white;
+        }
+         .margin{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width:1500px;
+        box-shadow: 0 4px 4px 0 rgba(22, 9, 32, 0.849);
+        background-color: rgb(158, 152, 152);
+        color: black;
+        
+         }
+
+        .img-small {
+         width: 80px;
+         height: 60px;
+         object-fit: cover;
+         }
+           </style>
+</head>
+<body>
+    <div class="header">
+         <center><h2> MY TRAVELS</h2>
+        <h4 >explore the world</h4></center>   
+        </div>
+ <div class="card-container">
+     
+    <div class="card">
+        <img src="travel.jpeg" alt="" style="width:100%;">
+         <div class="container">
+            <h2>TRAVEL DIARY</h2>
+            <h2>Journey through Nature <span style="opacity: 0.5">June 17, 2026</span></h2>
+            <p>Wandering through new places fills the heart with unforgettable memories. From misty mountains to golden beaches, every destination has its own story to tell. The gentle breeze, the vibrant cultures, and the taste of local cuisines create a beautiful experience. Traveling not only refreshes the mind but also broadens perspectives, making every journey truly meaningful and inspiring</p>
+            <button>Read More >></button>
+        </div>
+
+    </div>
+    <div class="blog">
+        <img src="Explore.jpeg" alt="" style="width: 100%;height: 300px;">
+        <div class="set">
+            <h4>My Name</h4>
+            <p>Just me, myself, and I, exploring the beauty of the world and the magic of new destinations. I have a heart full of wanderlust and a passion for discovering hidden places, cultures, and stories. Through this travel blog, I want to share my journeys, experiences, and unforgettable moments with you</p>
+             <button>Read More >></button>        
+        </div>
+    </div>
+    
+    <div class="witch">
+        <img src="italy.jpeg" alt="" style="width: 100%;height: 300px;">
+        <div class="enter">
+            <h4>BLOG ENTRY</h4>
+            <h2> Italy, <span style="opacity: 0.5;">Jan 2, 2026</span></h2>
+            <p>Italy is a beautiful country in Europe known for its rich history, art, and culture.
+            It is famous for landmarks like the Colosseum, canals of Venice, and delicious food like pizza and pasta.
+            With stunning cities and scenic landscapes, Italy is one of the world's most popular travel destinations.</p>
+            <button>comments</button>
+        </div>
+    </div>
+
+    <div class="car">
+        <div class="contain">
+            <h4>POST TAGS</h4>
+            <div class="post-item">
+                <img src="effile.jpeg" width="100%" class="img-small">
+                <div>
+                    <b style="opacity: 0.5;">Paris</b><br>
+                    <p>Effile Tower</p>
+                </div>
+            </div>
+
+            <div class="post-item">
+                <img src="nature.jpeg" width="100%" class="img-small">
+                <div>
+                    <b style="opacity: 0.5;">Mountains</b><br>
+                    <p>Munnar</p>
+                </div>
+            </div>
+
+            <div class="post-item">
+                <img src="eypgt.jpeg" width:100% class="img-small">
+                <div>
+                    <b style="opacity: 0.5;">Mummy</b><br>
+                    <p>Egypt</p>
+                </div>
+            </div>
+            <div class="post-item">
+                <img src="harbour.jpeg" width="100%" class="img-small">
+                 <div>
+                    <b style="opacity: 0.5;">Sydney Harbour</b>
+                    <p>Australia</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="tags">
+        <h1>TAGS</h1>
+        <div class="tab">
+         <button style="background-color: brown;">delhi</button>
+         <button>italy</button>
+         <button>gujarat</button>
+         <button>telungala</button>
+         <button>canada</button>
+         <button>london</button>
+         <button>switzerland</button>
+        </div>
+    </div>
+    <div class="margin">
+         <button style="background-color:gray;">previous</button>
+         <button style="background-color: black; color: white;">Next >></button>  
+         <p style="color: white;">Powered by spidey.com.</p>  
+    </div>
+</div>
+            
+</body>
+</html>
